@@ -6,11 +6,19 @@
 /*   By: yhajbi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:55:38 by yhajbi            #+#    #+#             */
-/*   Updated: 2024/11/08 23:57:58 by yhajbi           ###   ########.fr       */
+/*   Updated: 2024/11/19 22:24:26 by yhajbi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
+
+/* ft_handle_specifier:
+ * basically a switch of if statements
+ * that check if **str is one of the
+ * specifiers cdiuspxX and calls the
+ * appripriate function to print the
+ * argument, then returns the count
+ * of the printed characters. */
 
 int	ft_handle_specifier(char **str, va_list ptr)
 {

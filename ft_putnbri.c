@@ -6,18 +6,18 @@
 /*   By: yhajbi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:52:27 by yhajbi            #+#    #+#             */
-/*   Updated: 2024/11/08 14:38:36 by yhajbi           ###   ########.fr       */
+/*   Updated: 2024/11/20 05:40:59 by yhajbi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 static int	ft_count(long n)
 {
 	int	count;
 
 	count = 0;
-	if (n < 0 || n == 0)
+	if (n <= 0)
 		count++;
 	while (n)
 	{

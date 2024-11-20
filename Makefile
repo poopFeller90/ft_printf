@@ -6,7 +6,7 @@
 #    By: yhajbi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/06 11:01:24 by yhajbi            #+#    #+#              #
-#    Updated: 2024/11/08 15:57:49 by yhajbi           ###   ########.fr        #
+#    Updated: 2024/11/19 03:04:56 by yhajbi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ RM = rm -f
 
 NAME = libftprintf.a
 
-HED1 = libftprintf.h
+HED1 = ft_printf.h
 SRC1 = $(shell ls *.c)
 OBJ1 = $(SRC:.c=.o)
 

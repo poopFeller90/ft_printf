@@ -6,11 +6,11 @@
 /*   By: yhajbi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:54:14 by yhajbi            #+#    #+#             */
-/*   Updated: 2024/11/08 15:54:45 by yhajbi           ###   ########.fr       */
+/*   Updated: 2024/11/19 23:16:37 by yhajbi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_printmemory(void *ptr)
 {
@@ -25,6 +25,8 @@ int	ft_printmemory(void *ptr)
 	dg = ft_countd(address, 16);
 	i = dg + 1;
 	buffer = malloc((dg + 3) * sizeof(char));
+	if (!buffer)
+		return (0);
 	buffer[0] = '0';
 	buffer[1] = 'x';
 	buffer[i + 1] = '\0';
