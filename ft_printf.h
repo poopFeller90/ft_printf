@@ -6,14 +6,13 @@
 /*   By: yhajbi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 02:59:52 by yhajbi            #+#    #+#             */
-/*   Updated: 2024/11/20 03:43:00 by yhajbi           ###   ########.fr       */
+/*   Updated: 2024/11/21 05:01:18 by yhajbi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include "./libft/libft.h"
 # include <unistd.h>
 # include <stdarg.h>
 # include <stdlib.h>
